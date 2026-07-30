@@ -3,7 +3,7 @@
    compartilhado, para que todos os aparelhos vejam a mesma versao. */
 (function(){
   var URL = "https://jornada-v8-default-rtdb.firebaseio.com/v8state.json";
-  var KEYS = ["cowork_chr_metas","cowork_chr_ritual","cowork_chr_mes_meta","jm_v8_cowork_v2"];
+  var KEYS = ["cowork_chr_metas","cowork_chr_ritual","cowork_chr_mes_meta","jm_v8_cowork_v2","v8_gestao_v1"];
 
   // PULL inicial (sincrono): traz o estado remoto antes do painel iniciar
   try {
