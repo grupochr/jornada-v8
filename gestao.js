@@ -199,6 +199,7 @@
     { t: 'i', page: 'painel', icon: '●', label: 'Painel' },
     {
       t: 'g', key: 'comercial', icon: '▦', label: 'Comercial', kids: [
+        { page: 'semana', label: 'Semana atual' },
         { page: 'semanal', label: 'Semana a semana' },
         { page: 'mensal', label: 'Mensal' },
         { page: 'vendedores', label: 'Vendedores' },
